@@ -218,17 +218,18 @@ header .menu {
 }
 
 .item-plano ul li {
-display: flex;
-flex-wrap: nowrap;
-align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .item-plano ul li::before {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: #122A57;
-    margin-right: 5px;
+    margin-right: 12px;
 }
 
 footer {
